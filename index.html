@@ -11,6 +11,10 @@
     integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ="
     crossorigin="anonymous"
   />
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+/>
 
   <script src="https://unpkg.com/scrollreveal"></script>
     <link href="style.css" rel="stylesheet" />
@@ -21,7 +25,7 @@
    <!-- Navigation -->
 <nav class = "navbar navbar-expand-md navbar-light sticky-top">
 	<div class="container-fluid">
-		<a class = "navbar-brand" href="#">FART COUNTER</a>
+		<a class = "navbar-brand rip" href="#">FART COUNTER</a>
 	</div>
 	<button
 	type="button"
@@ -54,18 +58,14 @@
 <div class="container-fluid padding analyser">
     <div class="row">
        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 counter">
-           <h6 ><img src = "images/Vector.png"> LET IT RIP</h6><br>
+           <h6 class = "animate__animated animate__bounce" ><img src = "images/Vector.png"> LET IT RIP</h6><br>
            <h3 class = "landing-text ">
                THE FART ANALYSER YOU NEVER KNEW YOU WANTED
            </h3>
-           <h6 class = " lead ">
-             Farts are a stinky business. We know! 
-           </h6>
+        
            <h6 class = " lead lead-text ">
              Farts are a stinky business. We Know! But can you make it through a day without dumping a ton of shitty, loud, sometimes silents, smelly, trouser ripping BANGS? You should not be ashamed of that. We ALL DO! Fart Counter is an app that listens, records and (uhm) analyzes your thunderous creations for your health benefits.
            </h6><br>
-
-           <h6 class = "lead">Fart Counter is an app that listens, records and (uhm) analyzes your thunderous creations for your health benefits.</h6>
        </div>
        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
 
@@ -74,20 +74,20 @@
     </div>
 </div>
 
-<div class="container-fluid padding">
+<div class="container-fluid padding med">
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-
-            
+    
         </div>
         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 counter">
-            <h1>FART COUNTER</h1>
+            <h1 class = "animate__animated animate__bounceInLeft">FART COUNTER</h1>
             <h6 class = "lead bottom-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam delectus fugit quo nemo facere, impedit rerum beatae molestiae autem quasi libero ullam enim? Fugiat molestiae quis assumenda obcaecati ipsa. Suscipit!
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia magnam accusantium, fugit a rem quae eveniet explicabo? Optio nobis aliquid quod libero accusantium facilis. Harum ad quaerat vitae voluptatibus est.
             </h6>
         </div>
     </div>
 </div>
+
 
 <div class="container-fluid padding health">
     <div class="row">
@@ -115,14 +115,12 @@
             <h2>Your Health Partner</h2>
             <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam exercitationem distinctio consequuntur, dolorum rerum autem officiis sed harum rem perferendis laborum maxime. Suscipit numquam incidunt provident assumenda sequi possimus. Beatae.</h6>
         </div>
-      
-
     </div>
 </div>
 
 
 <footer>
-    <div class="container-fluid text-center">
+    <div class="container-fluid text-center contact">
         <div class="row">
             <div class="col-sm-12 ">
                 <h3>Want to get notified when we launch?</>
@@ -169,10 +167,18 @@ sr.reveal('.navbar', {
 	distance: "400px",
 	viewFactor: 0.2
 });
+sr.reveal('.lead-text', {
+	duration: 2000,
+	origin: 'bottom',
+	distance: '300px',
+	delay: 500,
+	viewFactor: 0.2
+});
 sr.reveal('.landing-text', {
 	duration: 2000,
 	origin: 'top',
 	distance: '300px',
+	delay: 500,
 	viewFactor: 0.2
 });
 sr.reveal('.lead-text', {
@@ -195,6 +201,13 @@ sr.reveal('.image-partner', {
 	distance: '200px',
 	delay: 500,
 	viewFactor: 0.1
+});
+sr.reveal('.counters', {
+	duration: 1000,
+	origin: 'top',
+	distance: '100px',
+	delay: 500,
+	viewFactor: 0.2
 });
 </script>
   </body>
