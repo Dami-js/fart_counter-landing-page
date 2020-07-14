@@ -28,12 +28,7 @@
   color: white;
 }
 
-.counter {
-  padding-left: 40px;
-  margin: 0 auto;
-  display: block;
-  width: 50%;
-}
+
 
 .partner {
   background: linear-gradient(
@@ -50,8 +45,20 @@
 .partner .row .counters {
     color: #ffffff;
 }
-@media (min-width: 567px) {
-  .partner .row .counters {
+
+footer {
+    background: #063866;
+    color: #ffffff;
+    height: 280px;
+    padding-top: 50px;
+    margin-top: 90px;
+
+}
+.footer .info .form-group input {
+    width: 300px !important;
+}
+@media (min-width: 399px) {
+  .partner .counters {
     margin-top: 100px;
   }
 }
