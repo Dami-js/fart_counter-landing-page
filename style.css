@@ -74,17 +74,15 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
+img {
+  width: 100%;
+}
+
 header .top-bar {
   background-color: #ffffff;
   display: flex;
   align-items: center;
   height: 60px;
-}
-
-header .blank-bar {
-  height: 60px;
-  background-color: #063866;
-  width: 55%;
 }
 
 header .app-title {
@@ -95,37 +93,36 @@ header .app-title {
 }
 
 section.hero {
-  margin-top: 3rem;
   position: relative;
   margin-bottom: 14rem;
+  background-image: url("./images/hero-img.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 3rem 0;
 }
 
 .hero-text-sect {
   width: 45%;
 }
 
+section.hero .inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 section.hero .img-section {
-  height: 600px;
-  background: linear-gradient(
-    1.99deg,
-    #010910 54.62%,
-    rgba(1, 12, 23, 0.739086) 140.9%,
-    rgba(2, 14, 26, 0.603945) 160.35%,
-    rgba(3, 20, 36, 0.22246) 173.31%,
-    rgba(3, 23, 41, 0) 186.14%
-  );
-  box-shadow: 40px 20px 15px rgba(0, 0, 0, 0.25);
-  position: absolute;
-  width: 45%;
-  right: 0;
-  top: -170px;
-  border-bottom-left-radius: 25px;
 }
 
 .hero__rip-cont {
   display: flex;
   align-items: flex-end;
   margin-bottom: 3rem;
+}
+
+.hero__rip-cont img {
+  width: 50px;
 }
 
 .hero__rip-cont span {
@@ -143,7 +140,7 @@ section.hero .img-section {
 
 .hero__info-text {
   font-size: 1.2rem;
-  color: #4f4f4f;
+  color: #ffffff;
 }
 
 section.counter {
@@ -240,4 +237,30 @@ footer .form-sect .form-group .form-control::placeholder {
 
 footer .button-main {
   margin-left: 2rem;
+}
+
+/* TABLETS ONLY */
+@media (min-width: 768px) and (max-width: 991px) {
+  section.hero .inner {
+  }
+
+  .hero-text-sect {
+    width: 50%;
+  }
+
+  section.hero .img-section {
+    width: 50%;
+  }
+}
+
+/* MOBILE PHONES ONLY */
+@media (max-width: 767px) {
+  section.hero .inner {
+    flex-direction: column;
+  }
+
+  .hero-text-sect,
+  section.hero .img-section {
+    width: 100%;
+  }
 }
