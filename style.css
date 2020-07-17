@@ -1,73 +1,3 @@
-/* 
-.navbar {
-  background: #063866;
-  color: white !important;
-  padding: 20px;
-  margin-bottom: 20px;
-}
-
-.navbar li a {
-  color: #ffffff !important;
-}
-.navbar .navbar-brand {
-  color: #ffffff !important;
-}
-
-.padding {
-  margin: 70px 0;
-}
-
-.counter h1 {
-  font-weight: 900;
-}
-
-.analyser, .health, .partner, .med, .contact {
-  padding: 0 70px;
-}
-.health {
- padding-top: 150px;
-  background: #063866;
-  width: 100%;
-  height: 500px;
-  color: white;
-}
-
-
-
-.partner {
-  background: linear-gradient(
-    270deg,
-    #063866 -9.19%,
-    rgba(107, 18, 149, 0.696185) 135.27%,
-    rgba(53, 133, 207, 0) 135.28%,
-    rgba(156, 31, 159, 0.457937) 135.28%
-  );
-  border-radius: 34px;
-  width: 88%;
-  margin: 0 auto;
-}
-
-.partner .row .counters {
-    color: #ffffff;
-}
-
-footer {
-    background: #063866;
-    color: #ffffff;
-    height: 280px;
-    padding-top: 50px;
-    margin-top: 90px;
-
-}
-.footer .info .form-group input {
-    width: 300px !important;
-}
-@media (min-width: 399px) {
-  .partner .counters {
-    margin-top: 100px;
-  }
-} */
-
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;700;800;900&display=swap");
 
 body {
@@ -90,10 +20,11 @@ header .top-bar {
 }
 
 header .app-title {
-  color: #063866;
-  font-weight: 600;
-  font-size: 1.5rem;
-  text-transform: uppercase;
+  text-decoration: none;
+}
+
+header .app-title img {
+  width: 200px;
 }
 
 section.hero {
