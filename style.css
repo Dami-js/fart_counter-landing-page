@@ -428,34 +428,35 @@ footer .button-main {
   .counters .counter-text {
     width: 100%;
   }
-}
 
-/* toggle */
+  .graphs-inner {
+    flex-direction: column;
+  }
 
-/* body {
-  
-  background-color: #FBF7FB;
-  color: black;
-  font-size: 25px;
-}
+  .graph-img,
+  .graph-text {
+    width: 100%;
+  }
 
-.dark-mode {
-  background-color: black;
-  color: white;
-}
-.card-dark {
-  color: black;
-  background-color: #fff;
-}
-.navbar-brand {
-  font-size: 30px;
-  font-weight: bold;
-}
+  .graph-text p {
+    text-align: left;
+    font-size: 2rem;
+  }
 
-.navbar li {
-  padding: 20px
+  .app {
+    min-height: 500px;
+    margin-top: 50px;
+  }
+
+  .app-img {
+    position: unset;
+  }
+
+  .app-img img {
+    width: 180px;
+  }
+
+  .app-text {
+    width: 100%;
+  }
 }
-#navbarResponsive .navbar-nav {
-  display: flex !important;
-  justify-content: flex-end !important;
-} */
