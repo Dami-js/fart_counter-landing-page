@@ -380,6 +380,12 @@ footer .button-main {
   margin-right: 2.4rem;
 }
 
+.head-title {
+  color: #063866;
+  font-weight: 800;
+  font-size: 2rem;
+}
+
 /* TABLETS ONLY */
 @media (min-width: 768px) and (max-width: 1024px) {
   section.hero .inner {
@@ -471,5 +477,9 @@ footer .button-main {
 
   .conversation-inner p {
     font-size: 1.3rem;
+  }
+
+  .head-title {
+    font-size: 1.5rem;
   }
 }
