@@ -90,7 +90,7 @@ header .top-bar {
 }
 
 header .app-title {
-  color: #fff;
+  color: #063866;
   font-weight: 600;
   font-size: 1.5rem;
   text-transform: uppercase;
@@ -139,7 +139,7 @@ section.hero .img-section {
 .hero__main-text {
   font-size: 2.3rem;
   font-weight: 900;
-  color: #063866;
+  color: #fff;
 }
 
 .hero__info-text {
