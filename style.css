@@ -72,8 +72,12 @@ footer {
 
 body {
   font-family: "Raleway", sans-serif;
+  background-color: #FBF7FB;
 }
 
+#logo {
+  font-weight: bold;
+}
 img {
   width: 100%;
 }
@@ -143,11 +147,34 @@ section.hero .img-section {
   color: #ffffff;
 }
 
-section.counter {
+/* section.counter {
   position: relative;
-  height: 400px;
+  height: 500px;
+}
+.counter .img-sect .elipse img {
+  width: 80%;
+  position: absolute;
+  z-index: -1;
+  top: -110px;
+  left:30px;
+}
+.counter .img-sect img {
+  width: 30%;
+  height: 90%;
 }
 
+.counter  {
+  margin: auto;
+  width: 70%;
+}
+
+.counter-content img {
+  display: absolute;
+  top: -20px;
+}
+
+
+.
 .counter-inner {
   display: flex;
   align-items: center;
@@ -173,15 +200,144 @@ section.counter .img-sect {
   left: 0;
   top: 0;
   height: 100%;
-  background: linear-gradient(
-    1.85deg,
-    #010910 54.62%,
-    rgba(1, 12, 23, 0.739086) 140.9%,
-    rgba(2, 14, 26, 0.603945) 160.35%,
-    rgba(3, 20, 36, 0.22246) 173.31%,
-    rgba(3, 23, 41, 0) 186.14%
-  );
-  width: 40%;
+ 
+} */
+.counters {
+  padding-bottom: 50px;
+  
+  
+}
+.counter .elipse img {
+  width: 80%;
+  position: absolute;
+  z-index: -1;
+  top: -110px;
+  left:30px;
+}
+
+.counters .images img {
+  width: 30%;
+  height: 70%;
+}
+
+.counter .counter-content img {
+  position: absolute;
+  bottom: 170px;
+  left: 100px;
+  width: 80%;
+  z-index: -1;
+}
+
+.analyse {
+  
+  height: 100%;
+  padding: 100px 0;
+}
+.card {
+  border-radius: 20px;
+}
+.card img {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.graphs {
+background: linear-gradient(270deg, #FD6234 -27.89%, rgba(107, 18, 149, 0.696185) 125.45%, rgba(53, 133, 207, 0) 125.47%, rgba(156, 31, 159, 0.457937) 125.47%);
+border-radius: 24px;
+height: 500px;
+margin: 100px 60px
+}
+.graphs img{
+  width: 100%
+}
+
+.charts {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  height: 60vh;
+  color: white;
+}
+
+.treatment img {
+  width: 26%;
+  height: 80%;
+  
+  padding: 10px
+}
+.treatment {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+
+.treatment .two {
+  margin-top: 90px;
+}
+
+.treatment .three {
+  margin-top: 90px;
+}
+
+.treatment .vector {
+  width: 60%;
+  left: 200px;
+  z-index: -10;
+  position: absolute;
+}
+
+.testimonial {
+  padding-top: 70px;
+}
+.testimonial img {
+
+  border-radius: 50%;
+}
+
+.app {
+  background-color: #9C1F9F;
+  margin-top: 150px;
+  width: 100%;
+  height: 500px;
+}
+
+.app img {
+  width: 70%;
+  height: 80%
+}
+
+
+.app-img {
+  position: relative;
+  top: -70px;
+  left: 70px
+
+}
+
+.app-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  flex-direction: column;
+}
+.stores {
+  display: flex;
+}
+.app h2 {
+  color: white;
+}
+.stores img {
+  width: 50%
+}
+
+.notify {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  text-align: center;
 }
 
 .button-main {
@@ -263,4 +419,102 @@ footer .button-main {
   section.hero .img-section {
     width: 100%;
   }
+
+  .counter {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .counter .img-sect{
+    width: 100%;
+
+  }
+
+  .counter .counter-inner{
+    width: 100%;
+  }
+  .analyse {
+    margin: 0 auto;
+    display: block;
+    width: 60%;
+  }
+
+  .analyse .card {
+    margin-bottom: 20px;
+  }
+
+  .testimonial {
+    
+    margin: 0 auto;
+    display: block;
+    width: 60%;
+
+  }
+
+  .testimonial .card {
+    margin-bottom: 20px;
+  }
+
+
+  .treatment .two-back {
+    position: absolute;
+    margin-top: 90px;
+    z-index : 1;
+    width: 25%;
+    margin-left: -63px;
+    
+  }
+
+  .card {
+    width: 26rem !important;
+    height: 35rem  !important;;
+  }
+
+  .card-analyse img {
+    width: 26rem  !important;
+    text-align: center;
+  }
+  
+  .card-analyse3 img {
+    padding-top: 10px;
+    width: 20rem
+  }
+
+  .card .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20rem !important;
+  }
+}
+
+/* toggle */
+
+body {
+  
+  background-color: #FBF7FB;
+  color: black;
+  font-size: 25px;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+.card-dark {
+  color: black;
+  background-color: #fff;
+}
+.navbar-brand {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.navbar li {
+  padding: 20px
+}
+#navbarResponsive .navbar-nav {
+  display: flex !important;
+  justify-content: flex-end !important;
 }
