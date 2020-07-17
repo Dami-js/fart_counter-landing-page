@@ -65,6 +65,7 @@ section.hero .img-section {
   font-weight: 600;
   text-transform: uppercase;
   margin-left: 1rem;
+  color: #fff;
 }
 
 .hero__main-text {
@@ -228,7 +229,7 @@ section.hero .img-section {
 .app-img {
   position: absolute;
   bottom: 0;
-  right: 150px;
+  right: 250px;
 }
 
 .app-img img {
@@ -336,8 +337,51 @@ footer .button-main {
   border-top: 1px solid #e4e4e4;
 }
 
+.conversation {
+  margin: 6rem 0;
+}
+
+.conversation-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.conversation-inner p {
+  color: #063866;
+  font-weight: 700;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.conversation-social {
+  background: linear-gradient(
+    270deg,
+    #fd6234 -27.89%,
+    rgba(107, 18, 149, 0.696185) 125.45%,
+    rgba(53, 133, 207, 0) 125.47%,
+    rgba(156, 31, 159, 0.457937) 125.47%
+  );
+  border-radius: 24px;
+  /* min-width: 500px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 8rem;
+}
+
+.conversation-social a {
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+
+.conversation-social a:not(:last-child) {
+  margin-right: 2.4rem;
+}
+
 /* TABLETS ONLY */
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   section.hero .inner {
   }
 
@@ -347,6 +391,10 @@ footer .button-main {
 
   section.hero .img-section {
     width: 50%;
+  }
+
+  .app-img {
+    right: 100px;
   }
 }
 
@@ -415,5 +463,13 @@ footer .button-main {
 
   .notify h3 {
     font-size: 1.5rem;
+  }
+
+  .conversation-social {
+    padding: 0.5rem 3rem;
+  }
+
+  .conversation-inner p {
+    font-size: 1.3rem;
   }
 }
