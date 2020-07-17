@@ -478,6 +478,10 @@ footer .button-main {
     margin-top: 3rem;
   }
 
+  .notify .form-group {
+    width: 100% !important;
+  }
+
   .notify h3 {
     font-size: 1.5rem;
   }
